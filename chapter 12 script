@@ -1,22 +1,19 @@
 #!/bin/bash
 #
 # Thao Vang
-# Linux Course
-#
-#
-#
-echo "**The command to create a local web server called LabOne via python**"
+# Linux Course 2461
+
+echo "**The command to create a local web server called LabOne via python using simple python -m <SimpleHTTPServer>**"
 echo "** to use this, open web browser and type in your local ip using port 8000**"
 python -m LabOne
-#
-#
+
 echo " in order to remote copy and transfer files to a remote server, by default it assumes you already make connection via ssh"
 echo "  in order to transfer all symbolic links, permissions, modes, and devices you need to add the option -a."
 echo " example: rsync -a dire <host:destination_dir>
 rysnc test1 test2 test3 <user@host>
-#
-#
+
+
 echo "another option is to perform testing for rsync to pretrip you test without copying anything with the option -nv"
 echo " rsync -nva dir host:destination_dir
-#
-#
+
+
